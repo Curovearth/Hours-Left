@@ -4,8 +4,8 @@ body{
     
 }
 .page1{
-    border: 2px black solid;
-    border-radius: 10px;
+    border: 10px black solid;
+    border-radius: 25px;
     /* height: 760px; */
     text-align: center;
     background: linear-gradient(45deg, #ee7752, #e73c7e, #1156eb, #23d5ab);
