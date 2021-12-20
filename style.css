@@ -1,4 +1,12 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+.header{
+    color: white;
+}
+
 .timer{
-    
+    color: white;
     font-size: 60px;
 }
