@@ -5,9 +5,9 @@
 //Building a function to update the countdown in every milisecond
 
 var x = setInterval(function(){
-    // var c = new Date("Aug 4, 2025 22:55");
+    var c = new Date("Aug 4, 2025 22:55");
     var d = new Date();     //creating an object for the date i.e., todays' date
-    var c = new Date("Dec 20, 2021 19:30");       //rough date of new year
+    // var c = new Date("Dec 20, 2021 19:30");       //rough date of new year
     var diff = c-d;     //returns the number of miliseconds left
     
     var minutes = Math.floor(diff/(60*1000));
