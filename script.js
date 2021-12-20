@@ -15,7 +15,7 @@ var x = setInterval(function(){
     var minutes = Math.floor(diff%(60*60*1000)/(60*1000));
     var seconds = Math.floor(diff%(60*1000)/(1000));
     // var milliseconds = Math.floor(diff%(1000))
-    document.getElementById("demo").innerHTML="AGE 25: "+days+"d "+hours+"h "+minutes+"m "+seconds+"s ";
+    document.getElementById("demo").innerHTML=days+"d "+hours+"h "+minutes+"m "+seconds+"s";
 },1);
 
 
