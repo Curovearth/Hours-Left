@@ -10,10 +10,11 @@ var x = setInterval(function(){
     // var c = new Date("Dec 20, 2021 19:30");       //rough date of new year
     var diff = c-d;     //returns the number of miliseconds left
     
-    var minutes = Math.floor(diff/(60*1000));
+    var hours = Math.floor(diff/(60*60*1000));
+    var minutes = Math.floor(diff%(60*60*1000)/(60*1000));
     var seconds = Math.floor(diff%(60*1000)/(1000));
     var milliseconds = Math.floor(diff%(1000))
-    document.getElementById("demo").innerHTML=minutes+"m "+seconds+"s "+milliseconds+"ms";
+    document.getElementById("demo").innerHTML=hours+"h "+minutes+"m "+seconds+"s "+milliseconds+"ms";
 },1);
 
 
