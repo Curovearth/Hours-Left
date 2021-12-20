@@ -7,9 +7,13 @@
 var x = setInterval(function(){
     // var c = new Date("Aug 4, 2025 22:55");
     var d = new Date();     //creating an object for the date i.e., todays' date
-    var c = new Date(2022,0,1);       //rough date of new year
+    var c = new Date("Dec 20, 2021 19:30");       //rough date of new year
     var diff = c-d;     //returns the number of miliseconds left
-    document.getElementById("demo").innerHTML=diff;
+    
+    var minutes = Math.floor(diff/(60*1000));
+    var seconds = Math.floor(diff%(60*1000)/(1000));
+    var milliseconds = Math.floor(diff%(1000))
+    document.getElementById("demo").innerHTML=minutes+"m "+seconds+"s "+milliseconds+"ms";
 },1);
 
 
