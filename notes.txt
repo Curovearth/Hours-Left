@@ -21,3 +21,13 @@ body {
 }
 
 ______________________________________________________________________
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+To add a button
+    define the variables for the different views
+    

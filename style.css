@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: black;
-    
-    
 }
 .page1{
-    border: 10px black solid;
-    border-radius: 25px;
+    
+    border: 20px black solid;
+    border-radius: 45px;
     /* height: 760px; */
     text-align: center;
     background: linear-gradient(45deg, #ee7752, #e73c7e, #1156eb, #23d5ab);
@@ -20,6 +24,7 @@ body{
 }
 
 .timer{
+    margin-top: 20px;
     color: white;
     font-size: 60px;
     font-family: 'Orbitron', sans-serif;
