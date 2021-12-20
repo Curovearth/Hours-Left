@@ -7,14 +7,15 @@
 var x = setInterval(function(){
     var c = new Date("Aug 4, 2025 22:55");
     var d = new Date();     //creating an object for the date i.e., todays' date
-    // var c = new Date("Dec 20, 2021 19:30");       //rough date of new year
+    // var c = new Date("Dec 21, 2021 ");       //rough date of new year
     var diff = c-d;     //returns the number of miliseconds left
     
-    var hours = Math.floor(diff/(60*60*1000));
+    var days = Math.floor(diff/(24*60*60*1000));
+    var hours = Math.floor(diff%(24*60*60*1000)/(60*60*1000));
     var minutes = Math.floor(diff%(60*60*1000)/(60*1000));
     var seconds = Math.floor(diff%(60*1000)/(1000));
-    var milliseconds = Math.floor(diff%(1000))
-    document.getElementById("demo").innerHTML=hours+"h "+minutes+"m "+seconds+"s "+milliseconds+"ms";
+    // var milliseconds = Math.floor(diff%(1000))
+    document.getElementById("demo").innerHTML="AGE 25: "+days+"d "+hours+"h "+minutes+"m "+seconds+"s ";
 },1);
 
 
