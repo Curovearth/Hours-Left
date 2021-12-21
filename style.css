@@ -4,11 +4,14 @@
 }
 
 body{
-    background-color: black;
-    
+    background-color: black; 
 }
+
+.content{
+    padding-top: 25vh;
+}
+
 .page1{
-    
     border: 20px black solid;
     border-radius: 45px;
     /* height: 760px; */
@@ -27,7 +30,7 @@ body{
 .timer{
     margin-top: 20px;
     color: white;
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Orbitron', sans-serif;
 }
 
