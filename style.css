@@ -1,97 +1,92 @@
+/*
+    Auther: Abdelrhman Said
+*/
+
+/* ------------------------- */
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black; 
-}
+
 
 .content{
-    padding-top: 20vh;
+  padding-top: 20vh;
 }
 
 .page1{
-    border: 20px black solid;
-    border-radius: 45px;
-    /* height: 760px; */
-    text-align: center;
-    background: linear-gradient(45deg, #ee7752, #e73c7e, #1156eb, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 85vh;
+  border: 20px black solid;
+  border-radius: 45px;
+  
+  text-align: center;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #1156eb, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 80vh;
 }
 
 .header{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .timer{
-    margin-top: 20px;
-    color: white;
-    font-size: 100px;
-    font-family: 'Orbitron', sans-serif;
+  margin-top: 20px;
+  color: white;
+  font-size: 70px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+0% {
+  background-position: 0% 50%;
 }
-/*
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
 
 
+/* ------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-*:focus,
+/* *:focus,
 *:active {
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
-}
+outline: none !important;
+-webkit-tap-highlight-color: transparent;
+} */
 
 html,
 body {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
   place-items: center;
-  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+  background-color: black;
 }
 
 .wrapper {
-  display: inline-flex;
-  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+
 }
 
 .wrapper .icon {
   position: relative;
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 15px;
+  padding: 5px;
   margin: 10px;
   width: 50px;
   height: 50px;
-  font-size: 18px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -99,12 +94,12 @@ body {
 .wrapper .tooltip {
   position: absolute;
   top: 0;
-  font-size: 14px;
+  font-size: 18px;
   background-color: #ffffff;
   color: #ffffff;
   padding: 5px 8px;
   border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -168,4 +163,3 @@ body {
   background-color: #de463b;
   color: #ffffff;
 }
-*/
