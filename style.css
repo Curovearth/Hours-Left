@@ -1,14 +1,21 @@
-/*
-    Auther: Abdelrhman Said
-*/
 
-/* ------------------------- */
 *{
   margin: 0;
   padding: 0;
 }
 
+@media screen and (min-width: 601px) {
+  div.timer {
+    font-size: 80px;
+  }
+}
 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.timer {
+    font-size: 50px;
+  }
+}
 
 .content{
   padding-top: 20vh;
@@ -33,7 +40,7 @@ height: 80vh;
 .timer{
   margin-top: 20px;
   color: white;
-  font-size: 70px;
+  /* font-size: 15vh; */
   font-family: 'Orbitron', sans-serif;
 }
 
