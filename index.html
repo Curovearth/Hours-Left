@@ -1,11 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Tick Tick Boom</title>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
@@ -14,59 +15,129 @@
     <link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    
-
-
+    <title>Document</title>
 </head>
+
 <body>
-  <div class="page1">
-    <div class="content">
-      <div class="timer" >
-        <p id="demo"></p>
-      </div><br>
-      <div class="header">
-        <h1>The Countdown begins Tick Tick</h1>
-          <!-- quotes slideshow can also be displayed -->
-        <h3>Time and Tide waits for None</h3>
-      </div>
+    <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <div class="page1">
+                                <div class="content">
+                                    <div class="timer">
+                                        <p id="demo"></p>
+                                    </div><br>
+                                    <div class="header">
+                                        <h1>The Countdown begins Tick Tick</h1>
+                                        <!-- quotes slideshow can also be displayed -->
+                                        <h3>Time and Tide waits for None</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <div class="page1">
+                                <div class="content">
+                                    <div class="timer">
+                                        <p id="demo"></p>
+                                    </div><br>
+                                    <div class="header">
+                                        <h1>The Countdown begins Tick Tick</h1>
+                                        <!-- quotes slideshow can also be displayed -->
+                                        <h3>Time and Tide waits for None</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <div class="page1">
+                                <div class="content">
+                                    <div class="timer">
+                                        <p id="demo"></p>
+                                    </div><br>
+                                    <div class="header">
+                                        <h1>The Countdown begins Tick Tick</h1>
+                                        <!-- quotes slideshow can also be displayed -->
+                                        <h3>Time and Tide waits for None</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <div class="page1">
+                                <div class="content">
+                                    <div class="timer">
+                                        <p id="demo"></p>
+                                    </div><br>
+                                    <div class="header">
+                                        <h1>The Countdown begins Tick Tick</h1>
+                                        <!-- quotes slideshow can also be displayed -->
+                                        <h3>Time and Tide waits for None</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
     </div>
-  </div>
 
-  <!-- ------------------------------------------- -->
-  <div class="wrapper">
-    <div class="icon facebook">
-      <div class="tooltip">Discord</div>
-      <a href="https://discord.com/channels/718336604887973939">
-        <span><i class="fab fa-discord"></i></span>
-      </a>
+    <!-- ------------------------------------------- -->
+    <div class="wrapper">
+        <div class="icon facebook">
+            <div class="tooltip">Discord</div>
+            <a href="https://discord.com/channels/718336604887973939">
+                <span><i class="fab fa-discord"></i></span>
+            </a>
+        </div>
+
+        <div class="icon twitter">
+            <div class="tooltip">Twitter</div>
+            <a href="https://twitter.com/Curovearth">
+                <span><i class="fab fa-twitter"></i></span>
+            </a>
+
+        </div>
+        <div class="icon instagram">
+            <div class="tooltip">LinkedIn</div>
+            <a href="https://www.linkedin.com/in/swarup-tripathy-quantangled/">
+                <span><i class="fab fa-linkedin-in"></i></span>
+            </a>
+        </div>
+
+        <div class="icon github">
+            <div class="tooltip">Github</div>
+            <a href="https://github.com/Swarzinium-369">
+                <span><i class="fab fa-github"></i></span>
+            </a>
+
+        </div>
+
     </div>
 
-    <div class="icon twitter">
-      <div class="tooltip">Twitter</div>
-      <a href="https://twitter.com/Curovearth">
-        <span><i class="fab fa-twitter"></i></span>
-      </a>
-
-    </div>
-    <div class="icon instagram">
-      <div class="tooltip">LinkedIn</div>
-      <a href="https://www.linkedin.com/in/swarup-tripathy-quantangled/">
-        <span><i class="fab fa-linkedin-in"></i></span>
-      </a>
-    </div>
-
-    <div class="icon github">
-      <div class="tooltip">Github</div>
-      <a href="https://github.com/Swarzinium-369">
-        <span><i class="fab fa-github"></i></span>
-      </a>
-
-    </div>
-    
-  </div>
-
-  <script src="/script.js"></script>
-      
 </body>
-</html>
+<script src="/script.js"></script>
 
+</html>
