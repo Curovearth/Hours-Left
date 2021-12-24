@@ -109,7 +109,7 @@ body {
    width: 10px;
    height: 10px;
    border-radius:100%;
-   background: #ccc;
+   background: yellow;
    margin: 0 10px;
 }
 
@@ -117,7 +117,7 @@ body {
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
-   background: rgb(252, 206, 0);
+   background: red;
 }
 
 /* @media screen and (max-width: 900px) {
@@ -146,6 +146,7 @@ body {
 .header{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
   }
   
 .timer{
@@ -155,6 +156,18 @@ body {
    font-family: 'Orbitron', sans-serif;
 }
 
+@media screen and (min-width: 601px) {
+   div.timer {
+     font-size: 80px;
+   }
+ }
+ 
+ /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+ @media screen and (max-width: 600px) {
+   div.timer {
+     font-size: 50px;
+   }
+ }
   
 @keyframes gradient {
     0% {
