@@ -106,8 +106,8 @@ body {
 
 #bullets label {
    display: inline-block;
-   width: 10px;
-   height: 10px;
+   width: 16px;
+   height: 16px;
    border-radius:100%;
    background: yellow;
    margin: 0 10px;
@@ -141,7 +141,12 @@ body {
     /* padding-top: 20vh; */
 }
   
-
+#age{
+   /* color: black; */
+   font-size: 7vw;
+   font-family: Ubuntu;
+   
+}
   
 .header{
     color: white;
@@ -155,6 +160,7 @@ body {
    font-size: 8vw;
    font-family: 'Orbitron', sans-serif;
    white-space: normal;
+   /* width: vw/3; */
 }
 
 /* @media screen and (min-width: 601px) {
