@@ -100,7 +100,7 @@ body {
 } */
 
 #bullets {
-   margin: 150px 0 0;
+   margin: 140px 0 20;
    text-align: center;
 }
 
@@ -118,6 +118,8 @@ body {
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
    background: red;
+   border-radius: 10%;
+   width: 55px;
 }
 
 /* @media screen and (max-width: 900px) {
@@ -137,15 +139,13 @@ body {
    }
 } */
 
-.content{
-    /* padding-top: 20vh; */
-}
+
   
 #age{
    /* color: black; */
-   font-size: 7vw;
+   font-size: 9vh;
    font-family: Ubuntu;
-   
+   margin-top: 10%;
 }
   
 .header{
@@ -160,7 +160,8 @@ body {
    font-size: 8vw;
    font-family: 'Orbitron', sans-serif;
    white-space: normal;
-   /* width: vw/3; */
+   /* height: 4vh; */
+   /* width: 2vw; */
 }
 
 /* @media screen and (min-width: 601px) {
@@ -252,24 +253,24 @@ body {
    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
       
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-   background-color: #fd4c06;
+.wrapper .discord:hover,
+.wrapper .discord:hover .tooltip,
+.wrapper .discord:hover .tooltip::before {
+   background-color: #0617fd;
    color: #ffffff;
 }
       
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-   background-color: #46c1f6;
+   background-color: #fc004c;
    color: #ffffff;
 }
       
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-   background-color: #e1306c;
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+   background-color: #015705;
    color: #ffffff;
 }
       
