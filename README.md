@@ -1,7 +1,9 @@
-# Hours-Left
-Number of Hours left to give me a reminder that I don't need to waste my time.
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 1c80e186e6dde65245a600ba74d3657939f8377e
+<p align=center>
+<a href='https://timespan.netlify.app/'><img src='https://github.com/Curovearth/Hours-Left/blob/main/imgs/logo.png' height=150></a>
+</p>
+<h1 align=center><a href='https://timespan.netlify.app/'>HOURS LEFT</a></h1>
+<p align=center>
+<i>The following has been made as a reminder for me that I need to stop wasting my time unnecessarily.</i>
+  <br><br>
+<a href='https://timespan.netlify.app/'><img width=700 src='https://github.com/Curovearth/Hours-Left/blob/main/imgs/1.gif'/></a>
+</p>
